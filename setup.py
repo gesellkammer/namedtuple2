@@ -6,6 +6,5 @@ setup(name='namedtuple2',
       author='Robert Handke',
       author_email='robert.handke@hushmail.com',
       url='https://github.com/gesellkammer/namedtuple2',
-      py_modules=['namedtuple2'],
-      # packages=['namedtuple2']
+      py_modules=['namedtuple2']
      )

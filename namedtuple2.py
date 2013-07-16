@@ -38,7 +38,7 @@ def namedtuple2(typename, field_names, verbose=False, rename=False):
     Point(x=20, y=10)
 
     >>> Person = namedtuple('Person', 'surname name="UNKNOWN"')
-    >>> p = Person("Cage", "John)
+    >>> p = Person("Cage", "John")
     Person(surname='Cage', name='John')
 
     >>> p = Person("Cage")
