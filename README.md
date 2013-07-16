@@ -26,9 +26,9 @@ A drop-in replacement for Python's collections.namedtuple with support for defau
     >>> p = Point(20)
     Point(x=20, y=10)
 
+When using strings, use " for the string, ' for the fields, as in the below example
     >>> Person = namedtuple('Person', 'surname name="UNKNOWN"')
-    >>> p = Person("Cage", "John)
+    >>> p = Person("Cage", "John")
     Person(surname='Cage', name='John')
-
     >>> p = Person("Cage")
     Person(surname='Cage', name='UNKNOWN')
