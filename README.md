@@ -27,6 +27,7 @@ A drop-in replacement for Python's collections.namedtuple with support for defau
     Point(x=20, y=10)
 
 When using strings, use " for the string, ' for the fields, as in the below example
+
     >>> Person = namedtuple('Person', 'surname name="UNKNOWN"')
     >>> p = Person("Cage", "John")
     Person(surname='Cage', name='John')
